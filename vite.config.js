@@ -9,4 +9,6 @@ export default defineConfig({
     }
   },
   plugins: [react()],
+  base: "/test2/", // YOUR REPO NAME HERE
+
 })
