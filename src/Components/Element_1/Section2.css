@@ -1,0 +1,37 @@
+.parent{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.centerd-cards{
+    margin-left: 5%;
+}
+
+.header_21{
+    color: var(--navy-pur);
+    font-family: "Inter";
+    font-size: 2rem;
+}
+
+.header_22{
+    color: var(--primary);
+    font-family: "Inter";
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.paragraph_11{
+    font-family: "Inter";
+    font-size: 0.8rem;
+    color: var(--gray_1);
+}
+
+.second_half{
+    top: 620px;
+}
+
+@media screen and (max-width: 900px){
+    .second_half{
+        top:1300px;
+    }
+}

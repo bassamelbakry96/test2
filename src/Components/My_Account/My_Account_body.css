@@ -1,0 +1,67 @@
+.my-count-btns-card{
+    height: 670px;
+    border-radius: 20px;
+}
+
+.btn-myacc, .btn-myacc-events, .btn-myacc-signout{
+    border: none;
+    background-color: white;
+    font-family: "Poppins";
+    font-size: .8rem;
+    color: #312B29;
+}
+
+.btn-myacc-active, .btn-myacc-events-active, .btn-myacc-signout-active{
+    position: relative;
+    font-family: "Poppins";
+    font-size: .8rem;
+    color: var(--primary);
+}
+
+.btn-myacc-active::after, .btn-myacc-events-active::after, .btn-myacc-signout-active::after{
+    position: absolute;
+    content: " ";
+    top: 1.9rem;
+    bottom: -.1rem;
+    width: 80%;
+    right: 0;
+    left: 0;
+    background-color: #3CB7A8;
+    text-align: center;
+}
+
+.disabled-textfield, .my-profile-lab, .hello-msg{
+    font-family: "Poppins";
+    font-size: .8rem;
+    color: #312B29;
+}
+
+.slash{
+    font-family: "Poppins";
+    font-size: .9rem;
+    color: #1C1C1C;
+}
+
+.home-slash{
+    font-family: "Poppins";
+    font-size: .8rem;
+    color: #312B29;
+}
+
+.general-info-lab{
+    font-family: "Roboto";
+    font-size: 0.7rem;
+    color: black;
+}
+
+.security-textfield{
+    font-family: "Roboto";
+    font-size: 0.5rem;
+    color: rgb(46, 41, 41);
+}
+
+.orange-no-border-btn{
+    color: #F04F23;
+    font-size: 0.6rem;
+
+}

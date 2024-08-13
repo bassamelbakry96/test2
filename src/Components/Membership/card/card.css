@@ -1,0 +1,64 @@
+.membership-card{
+    /* width: 386px; */
+    height: 780px;
+    gap: 0px;
+    border-radius: 28px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+  
+}
+
+.membership-card:hover{
+    background-color: ghostwhite;
+    box-shadow: 0 6px 6px var(--primary);
+}
+
+.mem-imgContainer{
+    height: 90px;
+    border-radius: 24px 0px 0px 0px;
+}
+
+.mem_active{
+    font-family: "Inter";
+    font-size: 21.14px;
+    font-weight: 400;
+    line-height: 35.99px;
+    text-align: left;
+    color: #5E5F79;
+
+}
+
+.mem_price{
+    font-family: "Inter";
+    font-size: 40.52px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    color: var(--navy-pur);
+
+}
+
+.mem-card-title{
+    font-family: "Inter";
+    font-size: 17.44px;
+    font-weight: 700;
+    line-height: 23.99px;
+    text-align: left;
+    color: var(--navy-pur);
+}
+
+.mem-list{
+    min-height: 350px;
+    font-family: "Inter";
+    font-size: 15.75px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--gray_3);
+}
+
+@media screen and (max-width: 600px) {
+    .membership-card{
+        /* width: 386px; */
+        height: 810px;}
+
+}

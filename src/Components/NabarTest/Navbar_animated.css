@@ -1,0 +1,96 @@
+/* Color of the navbar AFTER scroll */
+.navbar.active {
+  background-color:var(--navy-bg);
+  color: #fff;
+}
+
+.logo_home_nav{
+  width: 6rem;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+/* Custom CSS for the dropdown menu */
+.menu {
+    width: 75%;
+  }
+  
+  /* Ensures the dropdown opens to the left */
+  .dropdown-menu.dropdown-menu-end {
+    left: auto;
+    right: 0;
+  }
+  .navbar{
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.custom-width{
+    width: 75%;
+}
+
+.navbar-toggler-icon{
+    z-index: 1000;
+    color: var(white);
+}
+
+.coll_list-item{
+    color: #012572;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.coll_list-item:hover{
+    color: #3CB7A8;
+}
+
+.cube-img{
+    transition: all 0.3s ease;
+}
+
+.cube-img:hover{
+    content: url("../../assets/Vectorg.svg");
+}
+
+.navbar-toggler-icon{
+  background-image: url('../../assets/lines.svg');
+  border: none;
+}
+
+.navbar-nav{
+  border-radius: 20px;
+  background-color: var(--white);
+  width: 60%;
+  align-self: self-end;
+}
+
+/* :root{
+  --navy-bg: rgba(25, 33, 61, 1);
+  --green-color:  rgba(60, 183, 168, 1);
+  ;
+}
+.navbar{
+  background-color: var(--navy-bg);
+}
+li.nav-item Link.nav-link:hover{
+  color: var(--green-color)
+} */
+
+@media (height: 1200) {
+  /* Your styles here */
+  /* .navbar {
+    background-color: lightblue;
+
+  } */
+}
+
+

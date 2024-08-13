@@ -1,0 +1,19 @@
+.my_container {
+    padding-bottom: 50px; /* Ensure enough padding at the bottom */
+    height: 1600px;
+}
+  
+.circles{    
+    z-index: -1;
+    object-position: center top; /* Adjust the position to cut a bit from the top */
+    margin-top: -150px;
+}
+
+
+@media screen and (max-width: 900px){
+    .my_container {
+        padding-bottom: 50px; /* Ensure enough padding at the bottom */
+        height: 4100px;
+    }
+}
+

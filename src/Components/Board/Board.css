@@ -1,0 +1,22 @@
+.headers{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.header1{
+    font-family: "Roboto";
+    color: var(--primary);
+}
+
+.header2{
+    font-family: "Roboto";
+    font-size: 2rem;
+    color: var(--navy);
+}
+
+.parag{
+    font-family: "Roboto";
+    font-size: .9rem;
+    color: var(--gray_1);
+}
